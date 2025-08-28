@@ -1,41 +1,64 @@
-# Tremor – Dashboard
+# Dashboard Template
 
-`Dashboard` is a SaaS application template from [Tremor](https://tremor.so). It's built
-using [`Tremor Raw`](https://raw.tremor.so/docs/getting-started/installation)
-and [Next.js](https://nextjs.org).
+A modern, responsive dashboard template built with Next.js and Tremor Raw components. Perfect for creating beautiful admin panels, analytics dashboards, and SaaS applications.
 
-## Getting started
+## ✨ Features
 
-1. Install the dependencies. We recommend using pnpm. If you want to use `npm`,
-   just replace `pnpm` with `npm`.
+- 🎨 Modern and clean design
+- 📱 Fully responsive
+- 🌙 Dark/Light mode support
+- 📊 Interactive charts and data visualization
+- 🔧 Customizable components
+- ⚡ Built with Next.js 14+ and TypeScript
+- 🎯 Ready-to-use dashboard layouts
+
+## 🚀 Getting Started
+
+1. **Install dependencies** (we recommend using pnpm):
 
 ```bash
 pnpm install
 ```
 
-2. Then, start the development server:
+2. **Start the development server**:
 
 ```bash
 pnpm run dev
 ```
 
-3. Visit [http://localhost:3000](http://localhost:3000) in your browser to view
-   the template.
+3. **Open your browser** and visit [http://localhost:3000](http://localhost:3000)
 
-## Notes
+## 🛠️ Built With
 
-This project uses
-[`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to
-automatically optimize and load Inter, a custom Google Font.
+- **[Next.js](https://nextjs.org)** - React framework
+- **[Tremor Raw](https://raw.tremor.so)** - UI components
+- **[Tailwind CSS](https://tailwindcss.com)** - Styling
+- **[TypeScript](https://www.typescriptlang.org)** - Type safety
+- **[Radix UI](https://www.radix-ui.com)** - Primitive components
+- **[Recharts](https://recharts.org)** - Data visualization
 
-This project uses
-[`Tremor Raw`](https://raw.tremor.so/docs/getting-started/installation)
-components for the UI.
+## 📁 Project Structure
 
-## License
+```
+src/
+├── app/                 # Next.js app directory
+├── components/          # Reusable UI components
+├── data/               # Mock data and schemas
+└── lib/                # Utility functions
+```
 
-This site template is a commercial product and is licensed under the
-[Tremor License](https://blocks.tremor.so/license).
+## 🎨 Customization
+
+This template is highly customizable. You can:
+
+- Modify colors and themes in `tailwind.config.ts`
+- Add new pages in the `src/app` directory
+- Create custom components in `src/components`
+- Update data schemas in `src/data`
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Learn more
 
