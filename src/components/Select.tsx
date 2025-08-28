@@ -20,7 +20,7 @@ SelectValue.displayName = "SelectValue"
 const selectTriggerStyles = [
   cx(
     // base
-    "group/trigger flex w-full select-none items-center justify-between gap-2 truncate rounded-md border px-3 py-2 shadow-sm outline-none transition sm:text-sm",
+    "group/trigger flex w-full items-center justify-between gap-2 truncate rounded-md border px-3 py-2 shadow-sm transition outline-none select-none sm:text-sm",
     // border color
     "border-gray-300 dark:border-gray-800",
     // text color
@@ -132,7 +132,7 @@ const SelectContent = React.forwardRef<
           // base
           "relative z-50 overflow-hidden rounded-md border shadow-xl shadow-black/[2.5%]",
           // widths
-          "min-w-[calc(var(--radix-select-trigger-width)-2px)] max-w-[95vw]",
+          "max-w-[95vw] min-w-[calc(var(--radix-select-trigger-width)-2px)]",
           // heights
           "max-h-[--radix-select-content-available-height]",
           // background color
@@ -199,7 +199,7 @@ const SelectItem = React.forwardRef<
       ref={forwardedRef}
       className={cx(
         // base
-        "grid cursor-pointer grid-cols-[1fr_20px] gap-x-2 rounded px-3 py-2 outline-none transition-colors data-[state=checked]:font-semibold sm:text-sm",
+        "grid cursor-pointer grid-cols-[1fr_20px] gap-x-2 rounded px-3 py-2 transition-colors outline-none data-[state=checked]:font-semibold sm:text-sm",
         // text color
         "text-gray-900 dark:text-gray-50",
         // disabled
@@ -238,7 +238,7 @@ const SelectItemPeriod = React.forwardRef<
       ref={forwardedRef}
       className={cx(
         // base
-        "relative flex cursor-pointer items-center rounded py-2 pl-8 pr-3 outline-none transition-colors data-[state=checked]:font-semibold sm:text-sm",
+        "relative flex cursor-pointer items-center rounded py-2 pr-3 pl-8 transition-colors outline-none data-[state=checked]:font-semibold sm:text-sm",
         // text color
         "text-gray-900 dark:text-gray-50",
         // disabled
@@ -266,7 +266,7 @@ const SelectItemPeriod = React.forwardRef<
         </span>
         <span>
           {period?.from && period?.to && (
-            <span className="whitespace-nowrap font-normal text-gray-400">
+            <span className="font-normal whitespace-nowrap text-gray-400">
               {format(period.from, "MMM d, yyyy")} –{" "}
               {format(period.to, "MMM d, yyyy")}
             </span>

@@ -110,7 +110,7 @@ export default function MobileSidebar() {
                 ))}
               </ul>
               <div>
-                <span className="text-sm font-medium leading-6 text-gray-500 sm:text-xs">
+                <span className="text-sm leading-6 font-medium text-gray-500 sm:text-xs">
                   Shortcuts
                 </span>
                 <ul aria-label="shortcuts" role="list" className="space-y-0.5">
