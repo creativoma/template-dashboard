@@ -55,12 +55,12 @@ export function DataTablePagination<TData>({
 
   return (
     <div className="flex items-center justify-between">
-      <div className="text-sm text-gray-500 tabular-nums">
+      <div className="text-sm tabular-nums text-gray-500">
         {table.getFilteredSelectedRowModel().rows.length} of {totalRows} row(s)
         selected.
       </div>
       <div className="flex items-center gap-x-6 lg:gap-x-8">
-        <p className="hidden text-sm text-gray-500 tabular-nums sm:block">
+        <p className="hidden text-sm tabular-nums text-gray-500 sm:block">
           Showing{" "}
           <span className="font-medium text-gray-900 dark:text-gray-50">
             {firstRowIndex}-{lastRowIndex}

@@ -87,7 +87,7 @@ export function Sidebar() {
               ))}
             </ul>
             <div>
-              <span className="text-xs leading-6 font-medium text-gray-500">
+              <span className="text-xs font-medium leading-6 text-gray-500">
                 Shortcuts
               </span>
               <ul aria-label="shortcuts" role="list" className="space-y-0.5">

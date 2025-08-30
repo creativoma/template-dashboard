@@ -94,7 +94,7 @@ const ProgressBar = React.forwardRef<HTMLDivElement, ProgressBarProps>(
           <span
             className={cx(
               // base
-              "ml-2 text-sm leading-none font-medium whitespace-nowrap",
+              "ml-2 whitespace-nowrap text-sm font-medium leading-none",
               // text color
               "text-gray-900 dark:text-gray-50",
             )}

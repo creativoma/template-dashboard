@@ -56,7 +56,7 @@ export default function Billing() {
   const [isSpendMgmtEnabled, setIsSpendMgmtEnabled] = React.useState(true)
   return (
     <>
-      <div className="rounded-lg bg-gray-50 p-6 ring-1 ring-gray-200 ring-inset dark:bg-gray-400/10 dark:ring-gray-800">
+      <div className="rounded-lg bg-gray-50 p-6 ring-1 ring-inset ring-gray-200 dark:bg-gray-400/10 dark:ring-gray-800">
         <h4 className="text-sm font-semibold text-gray-900 dark:text-gray-50">
           This workspace is currently on free plan
         </h4>
@@ -263,7 +263,7 @@ export default function Billing() {
               </div>
               <div className="space-y-6 md:col-span-2">
                 <Card className="overflow-hidden p-0">
-                  <div className="px-4 pt-4 pb-6">
+                  <div className="px-4 pb-6 pt-4">
                     <span className="text-sm text-gray-500">$25/month</span>
                     <h4 className="mt-4 text-sm font-semibold text-gray-900 dark:text-gray-50">
                       Advanced bot protection
@@ -292,7 +292,7 @@ export default function Billing() {
                   </div>
                 </Card>
                 <Card className="overflow-hidden p-0">
-                  <div className="px-4 pt-4 pb-6">
+                  <div className="px-4 pb-6 pt-4">
                     <span className="text-sm text-gray-500">$50/month</span>
                     <h4 className="mt-4 text-sm font-semibold text-gray-900 dark:text-gray-50">
                       Workspace insights

@@ -64,10 +64,10 @@ export const WorkspacesDropdownDesktop = () => {
             </span>
             <div className="flex w-full items-center justify-between gap-x-4 truncate">
               <div className="truncate">
-                <p className="truncate text-sm font-medium whitespace-nowrap text-gray-900 dark:text-gray-50">
+                <p className="truncate whitespace-nowrap text-sm font-medium text-gray-900 dark:text-gray-50">
                   Retail analytics
                 </p>
-                <p className="text-left text-xs whitespace-nowrap text-gray-700 dark:text-gray-300">
+                <p className="whitespace-nowrap text-left text-xs text-gray-700 dark:text-gray-300">
                   Member
                 </p>
               </div>
@@ -167,7 +167,7 @@ export const WorkspacesDropdownMobile = () => {
               aria-hidden="true"
             />
             <div className="flex w-full items-center justify-between gap-x-3 truncate">
-              <p className="truncate text-sm font-medium whitespace-nowrap text-gray-900 dark:text-gray-50">
+              <p className="truncate whitespace-nowrap text-sm font-medium text-gray-900 dark:text-gray-50">
                 Retail analytics
               </p>
               <RiExpandUpDownLine
